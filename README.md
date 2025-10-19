@@ -1,30 +1,20 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/uAfN8jpt)
-Name: ................
+# hw-dpbo-remix
 
-NIM : ................
+Proyek ini adalah varian dari tugas "hw-dpbo-main" — dibuat untuk latihan dan dimodifikasi ringan agar tidak identik.
 
-# Instruction
-1. Fill in your details
-2. Clone this repo
-3. Move your source to this repo
-4. Fill in the required section in the Readme
-5. This assignment is due October 20th, 23:55 AM
+Fitur utamanya sama: sistem marketplace sederhana dengan Buyer, Seller, Bank, Orders, dan Analytics.
 
-# Features Implemented (list all completed)
-1. ...............
-2. 
+Cara kompilasi
 
-# Collaborators (The person you learned from)
-1. ..........
+- Gunakan compiler C++ modern (g++/MSVC).
+- Contoh (PowerShell/mingw):
 
-# Students (the person you taught to complete the assignments)
-1. ...........
+```powershell
+g++ main.cpp bank\bank.h bank_customer\bank_customer.cpp buyer\buyer.cpp seller\seller.cpp order\order.cpp store\store.cpp -o marketplace.exe -std=c++11
+./marketplace.exe
+```
 
-# AI Assistance
-AI Tools: .............
+Catatan
 
-Paid AI Plugin (state none, if not subscribed): .............
-
-Total Prompts used (int estimate): .............
-
-Dominant prompt used for (seek solution / implement ideas) : ..............
+- File-file header dan implementasi disalin dari `hw-dpbo-main` dengan beberapa penamaan yang diubah.
+- Proyek ini dimaksudkan untuk tujuan pembelajaran; gunakan dengan bijak.
